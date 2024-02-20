@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homepage</title>
+     {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <style>
+        img{
+            width: 300px;
+            height: 200px;
+        }   
+        h1{
+            background-color: blueviolet;
+            line-height: 100px;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        h1:hover{
+            background-color: lightskyblue;
+        }
+        
+    </style>
+</head>
+<body>
+<h1>Homepage</h1>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet cupiditate dolorum esse eveniet exercitationem iste libero, nostrum porro soluta unde! Accusamus accusantium eum modi nostrum numquam quis tempora. Iure, repudiandae?</span><span>Asperiores enim error eum excepturi illo impedit omnis perferendis! Delectus dolore est facilis iure quibusdam reprehenderit velit. Dignissimos eveniet impedit ipsam officia ratione reprehenderit voluptatibus? Explicabo maiores optio soluta voluptas!</span></p>
+<img src="{% static 'images/colour.jpeg' %}" alt="">
+<img src="{% static 'images/car A' %}" alt="">
+<img src="{% static 'images/car 1' %}" alt="">
+<img src="{% static 'images/car 2' %}" alt="">
+<img src="{% static 'images/car 3' %}" alt="">
+<img src="{% static 'images/car 4' %}" alt="">
+<br><br>
+<h1>Payments</h1>
+<p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti doloribus ea, error explicabo facilis, iure necessitatibus omnis porro qui, quibusdam quo repudiandae sequi sint tempore voluptatibus! Dolorum quo saepe voluptates?</p>
+<img id="image" src="{% static 'images/colour.jpeg' %}" alt="">
+</body>
+</html>
